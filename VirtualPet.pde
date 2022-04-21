@@ -1,8 +1,15 @@
 
-void setup(){
-  //some of your code here
-}
-void draw(){
-  //more of your code here
+
+int x = 0;
+
+void setup() {
+  size(200, 200);
+  background(0);
+  noStroke();
+  fill(102);
 }
 
+void draw() {
+  rect(x, 10, 2, 80); 
+  x = x + 1;
+}
