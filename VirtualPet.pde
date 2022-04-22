@@ -11,5 +11,5 @@ void setup() {
 
 void draw() {
   background(64);
-	ellipse(mouseX, mouseY, 20, 20);
+  ellipse(mouseX, mouseY, 20, 20);
 }
