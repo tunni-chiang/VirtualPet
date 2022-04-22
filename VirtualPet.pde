@@ -10,6 +10,7 @@ void setup() {
 }
 
 void draw() {
-  rect(x, 10, 2, 80); 
-  x = x + 1;
+  background(255);
+  rect(width-mouseX, height-mouseY, 50, 50);
+  rect(mouseX, mouseY, 50, 50);
 }
