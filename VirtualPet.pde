@@ -1,12 +1,6 @@
-
-
-int x = 0;
-
 void setup() {
-  size(200, 200);
-  background(0);
-  noStroke();
-  fill(102);
+  size(600, 800);
+  smooth();
 }
 
 void draw() {
