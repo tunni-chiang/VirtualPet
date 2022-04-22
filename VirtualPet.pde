@@ -46,5 +46,5 @@ void creepy_bunny() {
 }
 
 void draw() {
-  creepy_bunny();
+  mickey();
 }
