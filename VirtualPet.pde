@@ -9,6 +9,7 @@ void mickey() {
   stroke(1);
   fill(255);
   circle(224, 184, 220);
+  ellipse(300, 460, 230, 270);
   //fill(188);
   //ellipse(280, 220, 35, 95);
   //ellipse(320, 220, 35, 95);
