@@ -3,7 +3,7 @@ void setup() {
   smooth();
 }
 
-void draw() {
+void creepy_bunny() {
   background(128);
   
   stroke(1);
@@ -37,4 +37,8 @@ void draw() {
     ellipse(390, 350, 40, 40);
     ellipse(210, 350, 40, 40);    
   }
+}
+
+void draw() {
+  creepy_bunny();
 }
