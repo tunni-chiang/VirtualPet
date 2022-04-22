@@ -3,6 +3,12 @@ void setup() {
   smooth();
 }
 
+void mickey() {
+  circle(100, 100, 100);
+  circle(300, 100, 100);
+  circle(200, 200, 200);
+}
+
 void creepy_bunny() {
   background(128);
   
