@@ -7,8 +7,13 @@ void mickey() {
   background(128);
   
   stroke(1);
+  //face detail
+  fill(26, 60, 64);
+  ellipse(337.5, 337.5, 50);
+  ellipse(375.5, 337.5, 50);
+  //body (face + body part)
   fill(255);
-  ellipse(300, 230, 115, 115);
+  ellipse(300, 280, 115, 115);
   ellipse(300, 460, 230, 230);
   //fill(188);
   //ellipse(280, 345, 35, 95);
