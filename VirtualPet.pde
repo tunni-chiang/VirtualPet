@@ -10,7 +10,6 @@ void setup() {
 }
 
 void draw() {
-  background(255);
-  rect(width-mouseX, height-mouseY, 50, 50);
-  rect(mouseX, mouseY, 50, 50);
+  background(64);
+	ellipse(mouseX, mouseY, 20, 20);
 }
